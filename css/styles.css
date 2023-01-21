@@ -1,0 +1,150 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    color: #66BFBF;
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-top: 0px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+hr {
+    border: dotted #86A3B8 8px;
+    border-bottom: none;
+    width: 4%;
+}
+
+p {
+    line-height: 2;
+}
+
+.top-container {
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top: 80px;
+}
+
+.middle-container {
+    margin-top: 60px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 120px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 380px;
+    top: 200px;
+}
+
+.skills {
+    margin-top: 80px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 60px auto 60px auto;
+    text-align: left;
+}
+
+.profile {
+    margin-bottom: 80px;
+}
+
+.profile-image {
+    margin: 0px auto 32px auto;
+}
+
+.profile-heading {
+    margin-bottom: 40px;
+}
+
+.profile-paragraph {
+    width: 32%;
+    margin: auto;
+}
+
+.skill-image {
+    width: 12%;
+    float: left;
+    margin: 30px 20px 30px 30px;
+}
+
+.skill-title {
+    padding-top: 28px;
+}
+
+.skill-description {
+    clear: left;
+}
+
+.contact-me {
+    margin: 80px auto 80px auto;
+}
+
+.contact-me-paragraph {
+    margin: 40px auto 64px auto;
+    width: 36%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background:  #30e3cb;
+    background-image: linear-gradient(to bottom,  #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #00337C;
+    margin: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+    margin-top: 40px;
+    color: white;
+}
